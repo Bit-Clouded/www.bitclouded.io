@@ -3,7 +3,7 @@
 
 title: Hydra Template
 url: "https://proud-alligator.cloudvent.net"
-baseurl:
+baseurl: http://mmdonaldson.github.io
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -12,9 +12,9 @@ disqus_shortname:
 logo: /siteicon.png
 description: Product marketing template for Jekyll.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Mitchell Donaldson
+  email:  email@email.com
+  twitter: https://twitter.com/mmdonaldson
 social:
   name: Hydra Template
   links:
