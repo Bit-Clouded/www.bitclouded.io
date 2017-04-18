@@ -3,7 +3,7 @@
 
 title: Hydra Template
 url: "https://proud-alligator.cloudvent.net"
-baseurl: https://mmdonaldson.github.io
+baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -46,6 +46,11 @@ defaults:
   -
     scope:
       path: "index.html"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "solutions.html"
     values:
       layout: "default"
   -

@@ -1,8 +1,8 @@
 - links:
   - name: Pricing
     link: /pricing/
-  - name: Blog
-    link: /blog/
+  - name: Solutions
+    link: /solutions/
   - name: About
     link: /about/
   - name: Contact
@@ -11,15 +11,7 @@
   - name: Login
     link: /
     new_window: true
-  - name: Sign Up
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
-    new_window: true
+
 - links:
   - name: Facebook
     link: https://facebook.com

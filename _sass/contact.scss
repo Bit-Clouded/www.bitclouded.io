@@ -18,12 +18,19 @@
 		margin: 0;
 	}
 
-	.contact-form, .contact-details  {
+	.contact-form, .contact-details {
 		@media #{$desktop} {
 			-webkit-flex: 1;
 			flex: 1;
 		}
 		margin: 0 30px;
+	}
+
+	input[type=submit]:hover {
+		background: #ffffff;
+		color: #4182e4;
+		border: 1px solid #4182e4;
+		border-radius: 5px;
 	}
 
 	.contact-details {
