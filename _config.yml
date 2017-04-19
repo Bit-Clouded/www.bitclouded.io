@@ -2,8 +2,8 @@
 # Site
 
 title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
-baseurl: http://bit-clouded.github.io
+url: "https://bit-clouded.github.io"
+baseurl: https://bit-clouded.github.io/
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
