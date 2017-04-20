@@ -7,7 +7,7 @@ description: We'd love to help you improve your sales.
 
 
 <div class="contact-box">
-	<form action="https://flqja1wyxf.execute-api.eu-west-1.amazonaws.com/latest/contact" method="post" class="contact-form">
+	<form id="contact-form" action="https://flqja1wyxf.execute-api.eu-west-1.amazonaws.com/latest/contact" method="post" class="contact-form">
 
 		<label for="name">Full Name</label>
 		<input type="text" name="name" id="name" placeholder="Enter your name..." required />
@@ -21,3 +21,38 @@ description: We'd love to help you improve your sales.
 		<input type="submit" value="Send Message" />
 	</form>
 </div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js"></script>
+
+<script>
+  $('#contact-form').validate({
+    submitHandler: function(form, err) {
+      if ($('#contact-form').valid()) {
+        $('#contact-form input[type=submit]').html('Processing...');
+        $.ajax({
+          url: form.action,
+          type: form.method,
+          data: $(form).serialize(),
+          success: function(response) {
+              $('form').html('<div style="text-align:center"><h3>Thank you!</h3><hr /><p>We\'ll be in contact shortly!</p></div>');
+          }
+        });
+      }
+    },
+    rules: {
+      name: {
+        required: true
+      },
+      email: {
+        required: true,
+        email: true
+      },
+      message: {
+        required: true
+      }
+    }
+  });
+</script>
