@@ -37,8 +37,11 @@ description: We'd love to help you improve your sales.
           type: form.method,
           data: $(form).serialize(),
           success: function(response) {
-              $('form').html('<div style="text-align:center"><h3>Thank you!</h3><hr /><p>We\'ll be in contact shortly!</p></div>');
-          }
+              $('form').html('<div style="text-align:center"><h3>Thank you!</h3><p>We\'ll be in contact shortly!</p></div>');
+          },
+					error: function(response) {
+							$('form').html('<div style="text-align:center"><h3>Ooops!</h3><p>There was an error with your enquiry!</p></div>');
+					}
         });
       }
     },
