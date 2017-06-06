@@ -13,19 +13,23 @@
     new_window: true
 
 - links:
-  - name: Facebook
-    link: https://facebook.com
-    new_window: true
-    social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com
-    social_icon: Twitter
-    new_window: true
-  - name: YouTube
-    link: https://youtube.com
-    social_icon: YouTube
-    new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
+  # - name: Facebook
+  #   link: https://facebook.com
+  #   new_window: true
+  #   social_icon: Facebook
+  # - name: Twitter
+  #   link: https://twitter.com
+  #   social_icon: Twitter
+  #   new_window: true
+  # - name: YouTube
+  #   link: https://youtube.com
+  #   social_icon: YouTube
+  #   new_window: true
+  # - name: RSS
+  #   link: /feed.xml
+  #   social_icon: RSS
+  #   new_window: false
+  - name: Github
+    link: https://github.com/Bit-Clouded/
+    social_icon: Github
     new_window: false

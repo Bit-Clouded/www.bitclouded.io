@@ -3,7 +3,7 @@
 
 title: Hydra Template
 url: "https://bit-clouded.github.io"
-baseurl: https://bit-clouded.github.io
+baseurl: 
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -11,6 +11,7 @@ disqus_shortname:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Product marketing template for Jekyll.
+app_url: https://app.bitclouded.io/
 author:
   name: Bit Clouded
   email:  email@email.com
