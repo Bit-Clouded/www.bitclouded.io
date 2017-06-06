@@ -1,10 +1,10 @@
 - links:
+  # - name: Solutions
+  #   link: /solutions/
   - name: Pricing
     link: /pricing/
-  - name: Solutions
-    link: /solutions/
-  - name: About
-    link: /about/
+  # - name: About
+  #   link: /about/
   - name: Contact
     link: /contact/
 - links:
