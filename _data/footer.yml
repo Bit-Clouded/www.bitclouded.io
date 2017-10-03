@@ -9,7 +9,7 @@
     link: /contact/
 - links:
   - name: Login
-    link: /
+    link: https://app.bitclouded.io/
     new_window: true
 
 - links:

@@ -13,6 +13,7 @@ logo: /siteicon.png
 description: Open Source AWS Infrastructure.
 app_url: https://app.bitclouded.io/
 repo_url: https://github.com/Bit-Clouded/Glenlivet/
+docs_url: https://docs.bitclouded.io/
 author:
   name: Bit Clouded
   email:  contacts@bitclouded.io
