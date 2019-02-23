@@ -2,17 +2,21 @@
 #   link: /solutions/
 #   new_window: false
 #   highlight: false
+- name: Home
+  link: /
+  new_window: false
+  highlight: false
 - name: Pricing
   link: /pricing/
   new_window: false
   highlight: false
-# - name: About
-#   link: /about/
-#   new_window: false
-#   highlight: false
-- name: Contact
-  link: /contact/
+- name: About
+  link: /about/
   new_window: false
+  highlight: false
+- name: Contact
+  link: https://bitcloudedsoftware.typeform.com/to/miHxtG
+  new_window: true
   highlight: false
 - name: Docs
   link: https://docs.bitclouded.io/

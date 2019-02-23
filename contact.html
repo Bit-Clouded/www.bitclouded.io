@@ -6,7 +6,7 @@ description: We'd love to help you build the AWS infrastructure you need.
 ---
 
 
-<div class="contact-box">
+<!--<div class="contact-box">
 	<form id="contact-form" action="https://flqja1wyxf.execute-api.eu-west-1.amazonaws.com/latest/contact" method="post" class="contact-form">
 
 		<label for="name">Full Name</label>
@@ -20,9 +20,25 @@ description: We'd love to help you build the AWS infrastructure you need.
 
 		<input type="submit" value="Send Message" />
 	</form>
-</div>
+</div>-->
+<style type="text/css">
+  @media screen and (max-width: 768px) {
+  .contact-form {
+      width: 100% !important;
+      padding-left: 1px;
+  }
+}
 
-<!-- jQuery -->
+@media (max-width: 400px) {
+ .contact-form input { width: 100% !important; }
+ .contact-form .input { margin: 0 !important; }
+}
+
+</style>
+<div class="contact-box" style="width:100%">
+<html> <head> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> <title>Company Site Contact Us</title> <style type="text/css"> html{ margin: 0; height: 100%; overflow: hidden; } iframe{ position: absolute; left:0; right:0; bottom:0; top:0; border:0; } </style> </head> <body> <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://bitcloudedsoftware.typeform.com/to/miHxtG"></iframe> <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script> </body> </html>
+</div>
+<!-- jQuery 
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js"></script>
@@ -59,3 +75,4 @@ description: We'd love to help you build the AWS infrastructure you need.
     }
   });
 </script>
+-->
